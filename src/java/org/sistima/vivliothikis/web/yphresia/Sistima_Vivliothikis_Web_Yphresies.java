@@ -9,10 +9,6 @@ import javax.jws.WebService;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 
-/**
- *
- * @author nikos
- */
 @WebService(serviceName = "Sistima_Vivliothikis_Web_Yphresies")
 public class Sistima_Vivliothikis_Web_Yphresies {
 

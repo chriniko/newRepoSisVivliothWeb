@@ -4,10 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
- * @author nikos
- */
 @SuppressWarnings("ThrowableResultIgnored")
 public class DbConnection {
 
