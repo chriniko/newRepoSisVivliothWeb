@@ -35,7 +35,6 @@ public class Sistima_Vivliothikis_Web_Yphresies {
             }
 
             int rows = ps.executeUpdate();
-            infos = null;
             return rows > 0;
 
         } catch (SQLException ex) {
@@ -67,7 +66,6 @@ public class Sistima_Vivliothikis_Web_Yphresies {
             ps.setString(4, st.nextToken());
 
             int rows = ps.executeUpdate();
-            infos = null;
             return rows > 0;
 
         } catch (SQLException ex) {
